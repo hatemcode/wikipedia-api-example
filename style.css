@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
+
+body {
+  background-color: #401A36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  color: white;
+  margin: 5em;
+}
+
+.form-control {
+  border-radius: 1.5em;
+  background-color: #401A36;
+  color: white;
+}
+#query-input {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+#close-button {
+  cursor: pointer;
+  margin-left: -1em;
+}
+
+.error{
+  color: pink;
+  display: none;
+}
+
+#result {
+  display: none;
+}
+
+.record {
+  margin-top: 1em;
+  background-color: #C4ABBE;
+  padding: 1em;
+  border-radius: 1em;
+  color: black;
+}
+
+.record h4{
+  text-align: left;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 1em;
+}
+
+@media only screen and (max-width : 992px) {
+  body {
+    margin: 0em;
+  }
+}
