@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia API Example</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+ 
+      <form id="search-form">
+        <h1 class="text-center">
+          Wikipedia Viewer
+        </h1>
+        
+        <p class="error"></p>
+        <input id="query-input" type="text" class="form-control"><span id="close-button">x</span>
+        <button id="search-button" name="search-button" type="button" class="btn btn-danger">Search</button>
+        <button id="random-button" name="random-button" type="button" class="btn btn-danger">Random Aricle</button>
+      </form>
+    </div>
+    <div id="result" class="col-xs-12 text-center">
+    </div>
+  </div>
+  
+  <footer>
+    <p>Coded by <a href="" target="blank">Hatem 2016</a> ©</p>
+  </footer>
+
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="script.js"></script>
+  </body>
+</html>
